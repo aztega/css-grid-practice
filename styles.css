@@ -1,0 +1,38 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 100px 500px 100px;
+}
+
+.section {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid white 4px;
+  border-radius: 10px;
+}
+
+.header {
+  grid-column: 1/4;
+}
+
+.navigation {
+  grid-column: 1/4;
+}
+
+.left-content {
+  grid-column: 1/2;
+}
+
+.main-content {
+  grid-column: 2/3;
+}
+
+.right-content {
+  grid-column: 3/4;
+}
+
+.footer {
+  grid-column: 1/4;
+}
